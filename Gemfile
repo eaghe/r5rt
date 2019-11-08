@@ -13,6 +13,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap-sass', '3.3.7'
 gem 'bcrypt'
+gem 'jquery-rails'
+
 
 
 group :development, :test do
