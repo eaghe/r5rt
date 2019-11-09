@@ -25,7 +25,6 @@ class UsersController < ApplicationController
       flash[:success] = "Profile updated"
       redirect_to @user
     else
-      puts @user.errors.full_messages
       render 'edit'
     end
   end
